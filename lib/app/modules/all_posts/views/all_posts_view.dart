@@ -1,4 +1,5 @@
 import 'package:etelligens/app/constants/app_colors.dart';
+import 'package:etelligens/app/constants/app_strings.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import '../controllers/all_posts_controller.dart';
@@ -71,7 +72,7 @@ class AllPostsView extends GetView<AllPostsController> {
                       children: [
                         Container(
                           child: Text(
-                            'iPhone 11 Review: Phone you must buy.',
+                            AppStrings.headline,
                             style: Get.textTheme.headline6,
                             maxLines: 2,
                             overflow: TextOverflow.ellipsis,

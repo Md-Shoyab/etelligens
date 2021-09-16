@@ -1,6 +1,7 @@
 import 'package:get/get.dart';
 
 class PostDetailsController extends GetxController {
+  final imageLink = Get.arguments['imageLink'];
   @override
   void onInit() {
     super.onInit();

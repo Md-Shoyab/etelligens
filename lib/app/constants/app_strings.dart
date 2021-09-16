@@ -1,4 +1,6 @@
 class AppStrings {
   static const String appTitle = 'Etelligens';
-   static const String goBack = 'Go Back';
+  static const String goBack = 'Go Back';
+  static const String headline = 'iPhone 11 Review: Phone you must buy.';
+  static const String postContent = "Last year, Apple tripled down on that design by releasing three different models that all looked like the iPhone X (Review). This meant that there were no direct successors to the iPhone 8 (Review) and iPhone 8 Plus (Review) — which Apple continues to sell to date — and, thus, no “default” iPhone model to serve as the starting point for most users. The iPhone XR (Review) was, of course, supposed to be this model, though Apple's naming scheme didn't really seem to suggest that. The iPhone XR was instead seen by many as the iPhone to purchase if you couldn't afford the iPhone XS (Review) or iPhone XS Max (Review), which was obviously unfair, as the device — though not without its share of compromises, most notably the low-resolution display — was a pretty darn good phone in its own right. Free from the shackles of its 'S cycle' names, Apple had the chance to rebrand the iPhone lineup this year to clarify these new realities, and it did just that at the iPhone launch event earlier this month. As we noted earlier, company executives spent a fair amount of time establishing the iPhone 11 — which is the successor to last year's iPhone XR, just in case anyone reading this didn't know that already — as the iPhone for most people.";
 }

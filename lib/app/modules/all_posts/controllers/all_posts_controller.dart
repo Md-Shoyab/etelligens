@@ -18,6 +18,11 @@ class AllPostsController extends GetxController {
   void onClose() {}
 
   void goToPostDetails() {
-    Get.toNamed(Routes.POST_DETAILS);
+    Get.toNamed(
+      Routes.POST_DETAILS,
+      arguments: {
+        'imageLink': imageLink,
+      },
+    );
   }
 }
