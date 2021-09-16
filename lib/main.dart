@@ -25,7 +25,7 @@ Future<void> main() async {
           navigatorObservers: [BotToastNavigatorObserver()],
           theme: ThemeData(
             primaryColor: AppColors.darkBlueBackground,
-            canvasColor: AppColors.blackBackground,
+            canvasColor: AppColors.white,
           ),
         ),
       );
