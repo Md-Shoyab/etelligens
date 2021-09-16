@@ -1,7 +1,5 @@
 import 'package:flutter/material.dart';
-
 import 'package:get/get.dart';
-
 import '../controllers/post_details_controller.dart';
 
 class PostDetailsView extends GetView<PostDetailsController> {
