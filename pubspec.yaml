@@ -7,9 +7,10 @@ environment:
 
 dependencies: 
   cupertino_icons: ^1.0.2
-  get: 4.3.8
   flutter: 
     sdk: flutter
+  get: 4.3.8
+  bot_toast: ^4.0.1
 
 dev_dependencies: 
   flutter_test: 
