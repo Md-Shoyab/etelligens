@@ -20,7 +20,7 @@ class AllPostsView extends GetView<AllPostsController> {
         child: Padding(
           padding: const EdgeInsets.all(8.0),
           child: ListView.builder(
-            itemCount: 4,
+            itemCount: 10,
             shrinkWrap: true,
             itemBuilder: (context, index) {
               return postCard(index);
